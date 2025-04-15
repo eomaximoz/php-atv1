@@ -1,0 +1,9 @@
+<?php
+$numeros = [1, 5, 3, 8, 2];
+
+function maiorNumero($array) {
+    return max($array);
+}
+
+echo "Maior número: " . maiorNumero($numeros);
+?>

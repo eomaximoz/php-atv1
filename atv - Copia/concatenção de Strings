@@ -1,0 +1,6 @@
+<?php
+$nome = "gustavo";
+$sobrenome = "maximo";
+
+echo "Gustavo figueiredo maximo: " . $nome . " " . $sobrenome;
+?>

@@ -1,0 +1,19 @@
+<?php
+function isPrimo($numero) {
+    if ($numero <= 1) {
+        return false;
+    }
+
+    for ($i = 2; $i <= sqrt($numero); $i++) {
+        if ($numero % $i == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+echo isPrimo(11) ? "11 é primo" : "11 não é primo";
+echo "<br>";
+echo isPrimo(12) ? "12 é primo" : "12 não é primo";
+?>
